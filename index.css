@@ -152,43 +152,34 @@ nav .right a span {
 }
 
 /* SECTION: Skills */
-.skills-section {
-  padding: 0 50px;
-  margin-bottom: 100px;
-  text-align: center;
-}
-
-.skills-section h2 {
-  font-size: 24px;
-  font-weight: bold;
-}
-
+/* Skills Section */
 .skills-container {
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin: 20px 0;
+  margin-top: 20px;
 }
 
 .skill {
-  font-size: 20px;
-  font-weight: bold;
-  color: #d3d3d3;
+  font-size: 24px;
+  font-weight: 600;
+  color: #d3d3d3; /* Light gray for unselected */
   cursor: pointer;
   transition: color 0.3s ease;
 }
 
 .skill:hover {
-  color: black;
+  color: black; /* Turn black on hover */
 }
 
 .skill.selected {
-  color: red;
+  color: red; /* Turn red when selected */
 }
 
 #skill-description {
   font-size: 16px;
   margin-top: 20px;
+  text-align: center;
 }
 
 
